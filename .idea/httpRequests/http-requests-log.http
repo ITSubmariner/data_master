@@ -1,0 +1,246 @@
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"tfg", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"tfg", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"tfg", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"wer", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T123136.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"poose", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"poose", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"loose", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T115947.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T114544.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T114251.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[]}
+
+<> 2020-01-22T114021.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T113742.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T113514.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T111726.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T111255.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T111055.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-22T110827.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":{"text":"What is your name?","number":1}}
+
+<> 2020-01-22T110707.400.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14/05/2020","end":"20/05/2020","active":true,"questions":{"text":"What is your name?","number":1}}
+
+<> 2020-01-22T110645.400.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14/05/2020","end":"20/05/2020","active":true,"questions":{"text":"What is your name?","number":1}}
+
+<> 2020-01-22T110245.400.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"best", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":{"text":"What is your name?","number":1}}
+
+<> 2020-01-22T110216.400.json
+
+###
+

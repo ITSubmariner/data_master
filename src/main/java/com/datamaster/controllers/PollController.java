@@ -1,7 +1,9 @@
 package com.datamaster.controllers;
 
 import com.datamaster.repositories.PollRepository;
+import com.datamaster.repositories.QuestionRepository;
 import com.datamaster.signatures.Poll;
+import com.datamaster.signatures.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -14,8 +16,9 @@ import org.springframework.web.bind.annotation.*;
 public class PollController {
 
     @Autowired private PollRepository pollRepository;
+    @Autowired private QuestionRepository questionRepository;
 
-    @GetMapping
+    /*@GetMapping
     public ResponseEntity get_polls(
             @RequestParam(required = false, defaultValue = "") String name,
             @RequestParam(required = false, defaultValue = "") String date,
@@ -25,7 +28,7 @@ public class PollController {
         Page<Poll> page = pollRepository.findAllWithParameters(name, date, active, pageable, Sort.by(Sort.Direction.ASC, sort));
         if (page.isEmpty()) return ResponseEntity.status(404).build();
         else return ResponseEntity.ok(page);
-    }
+    }*/
 
     @PostMapping
     public ResponseEntity create_poll(@RequestBody Poll message) {

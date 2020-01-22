@@ -1,34 +1,18 @@
 package com.datamaster.signatures;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.List;
 
 @Entity
 @Table(name = "polls")
+@Data
+@NoArgsConstructor
 public class Poll {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private long id;
-
-    @Column(name = "name", unique = true, nullable = false)
-    private String name;
-
-    @Column(name = "start")
-    private LocalDate start;
-
-    @Column(name = "end")
-    private LocalDate end;
-
-    @Column(name = "active")
-    private boolean active;
-
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "poll")
-    @OrderBy("number ASC")
-    @Column(name = "questions")
-    private List<Question> questions;
 
     public Poll(String name, LocalDate start, LocalDate end, boolean active, List<Question> questions) {
         this.name = name;
@@ -38,38 +22,19 @@ public class Poll {
         this.questions = questions;
     }
 
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
 
-    public LocalDate getStart() {
-        return start;
-    }
-    public void setStart(LocalDate start) {
-        this.start = start;
-    }
+    @Column(unique = true)
+    private String name;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
+    private LocalDate start;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
+    private LocalDate end;
+    private boolean active;
 
-    public LocalDate getEnd() {
-        return end;
-    }
-    public void setEnd(LocalDate end) {
-        this.end = end;
-    }
-
-    public boolean isActive() {
-        return active;
-    }
-    public void setActive(boolean active) {
-        this.active = active;
-    }
-
-    public List<Question> getQuestions() {
-        return questions;
-    }
-    public void setQuestions(List<Question> questions) {
-        this.questions = questions;
-    }
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "poll")
+    @OrderBy("number ASC")
+    private List<Question> questions;
 }
