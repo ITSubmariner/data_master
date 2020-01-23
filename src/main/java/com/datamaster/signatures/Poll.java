@@ -14,6 +14,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @Entity
+@Table(name = "poll")
 @Data
 @NoArgsConstructor
 public class Poll {
@@ -31,12 +32,15 @@ public class Poll {
     @JsonIgnore
     private long id;
 
-    @Column(unique = true)
+    @Column(unique = true, name = "name")
     private String name;
+    @Column(name = "start")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     private LocalDate start;
+    @Column(name = "end")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     private LocalDate end;
+    @Column(name = "active")
     private boolean active;
 
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)

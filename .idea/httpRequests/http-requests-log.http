@@ -1,3 +1,268 @@
+DELETE http://localhost:8080/poll?name=qwe
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+###
+
+GET http://localhost:8080/poll?page=0&size=3&sort=start
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+<> 2020-01-23T045544.200.json
+
+###
+
+GET http://localhost:8080/poll?page=0&size=3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+<> 2020-01-23T045532.400.json
+
+###
+
+PUT http://localhost:8080/poll?name=qwe
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{
+  "name": "qwe",
+  "start": "16-05-2020",
+  "end": "20-05-2020",
+  "active": true,
+  "questions": [
+    {
+      "text": "What is your name?",
+      "number": 1
+    },
+    {
+      "text": "Hello all!",
+      "number": 3
+    },
+    {
+      "text": "Hello allqwe!",
+      "number": 2
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T045228.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T045029.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T044753.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T044432.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"234", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T043814.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T043808.400.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T043433.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T043256.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T043036.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T043012.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T042910.400.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T041904.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T041225.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T040808.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T040532.500.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-23T040210.500.json
+
+###
+
 GET http://localhost:8080/poll?page=6&size=3
 Accept: */*
 Cache-Control: no-cache
@@ -292,281 +557,6 @@ Cache-Control: no-cache
 Content-Type: application/json;charset=UTF-8
 
 {"name":"wer", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"qwe", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=16-05-2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T025216.200.json
-
-###
-
-PUT http://localhost:8080/poll?name=qwe
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{
-  "name": "qwe",
-  "start": "16-05-2020",
-  "end": "20-05-2020",
-  "active": true,
-  "questions": [
-    {
-      "text": "What is your name?",
-      "number": 1
-    },
-    {
-      "text": "Hello all!",
-      "number": 3
-    },
-    {
-      "text": "Hello allqwe!",
-      "number": 2
-    }
-  ]
-}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"ert", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"wer", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"qwe", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=16-05-2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T025045.404.json
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=17-05-2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T025038.200.json
-
-###
-
-PUT http://localhost:8080/poll?name=qwe
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{
-  "name": "qwe",
-  "start": "16-05-2020",
-  "end": "20-05-2020",
-  "active": true,
-  "questions": [
-    {
-      "text": "What is your name?",
-      "number": 1
-    },
-    {
-      "text": "Hello all!",
-      "number": 3
-    },
-    {
-      "text": "Hello allqwe!",
-      "number": 2
-    }
-  ]
-}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"qwe", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-<> 2020-01-23T025026.400.json
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"ert", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"wer", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"qwe", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=17-05-2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T024813.400.json
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=17.05.2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T024758.400.json
-
-###
-
-PUT http://localhost:8080/poll?name=qwe
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{
-  "name": "qwe",
-  "start": "16-05-2020",
-  "end": "20-05-2020",
-  "active": true,
-  "questions": [
-    {
-      "text": "What is your name?",
-      "number": 1
-    },
-    {
-      "text": "Hello all!",
-      "number": 3
-    },
-    {
-      "text": "Hello allqwe!",
-      "number": 2
-    }
-  ]
-}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"ert", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"wer", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"qwe", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=17.05.2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T024623.500.json
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=17.05.2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T024448.500.json
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=17/05/2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T024437.500.json
-
-###
-
-GET http://localhost:8080/poll?name=qwe&date=17-05-2020
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T024354.500.json
-
-###
-
-GET http://localhost:8080/poll?name=wer
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-<> 2020-01-23T024321.200.json
 
 ###
 

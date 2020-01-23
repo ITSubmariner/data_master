@@ -1,0 +1,46 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: admin
+      changes:
+        - createTable:
+            tableName: poll
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: start
+                  type: DATE
+              - column:
+                  name: end
+                  type: DATE
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    unique: true
+              - column:
+                  name: active
+                  type: Boolean
+        - createTable:
+            tableName: question
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: text
+                  type: varchar(255)
+              - column:
+                  name: number
+                  type: BIGINT
+              - column:
+                  name: poll_id
+                  type: BIGINT
