@@ -3,6 +3,26 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json;charset=UTF-8
 
+{"name":"zxc", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
+
+<> 2020-01-24T111033.400.json
+
+###
+
+POST http://localhost:8080/poll
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
 {"name":"qwe", "start":"15-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
 
 ###
@@ -539,24 +559,6 @@ Content-Type: application/json;charset=UTF-8
 {"name":"sdf", "start":"3-03-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
 
 <> 2020-01-23T032934.400.json
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"asd", "start":"11-03-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
-
-###
-
-POST http://localhost:8080/poll
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json;charset=UTF-8
-
-{"name":"ert", "start":"14-05-2020","end":"20-05-2020","active":true,"questions":[{"text":"What is your name?","number":1}]}
 
 ###
 
